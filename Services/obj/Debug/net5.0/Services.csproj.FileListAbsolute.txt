@@ -1,0 +1,15 @@
+D:\.net\primerParcialPeroConBDD\PrimerParcialPeroConBDD\Services\bin\Debug\net5.0\Services.deps.json
+D:\.net\primerParcialPeroConBDD\PrimerParcialPeroConBDD\Services\bin\Debug\net5.0\Services.runtimeconfig.json
+D:\.net\primerParcialPeroConBDD\PrimerParcialPeroConBDD\Services\bin\Debug\net5.0\Services.runtimeconfig.dev.json
+D:\.net\primerParcialPeroConBDD\PrimerParcialPeroConBDD\Services\bin\Debug\net5.0\Services.dll
+D:\.net\primerParcialPeroConBDD\PrimerParcialPeroConBDD\Services\bin\Debug\net5.0\ref\Services.dll
+D:\.net\primerParcialPeroConBDD\PrimerParcialPeroConBDD\Services\bin\Debug\net5.0\Services.pdb
+D:\.net\primerParcialPeroConBDD\PrimerParcialPeroConBDD\Services\obj\Debug\net5.0\Services.csprojAssemblyReference.cache
+D:\.net\primerParcialPeroConBDD\PrimerParcialPeroConBDD\Services\obj\Debug\net5.0\Services.GeneratedMSBuildEditorConfig.editorconfig
+D:\.net\primerParcialPeroConBDD\PrimerParcialPeroConBDD\Services\obj\Debug\net5.0\Services.AssemblyInfoInputs.cache
+D:\.net\primerParcialPeroConBDD\PrimerParcialPeroConBDD\Services\obj\Debug\net5.0\Services.AssemblyInfo.cs
+D:\.net\primerParcialPeroConBDD\PrimerParcialPeroConBDD\Services\obj\Debug\net5.0\Services.csproj.CoreCompileInputs.cache
+D:\.net\primerParcialPeroConBDD\PrimerParcialPeroConBDD\Services\obj\Debug\net5.0\Services.dll
+D:\.net\primerParcialPeroConBDD\PrimerParcialPeroConBDD\Services\obj\Debug\net5.0\ref\Services.dll
+D:\.net\primerParcialPeroConBDD\PrimerParcialPeroConBDD\Services\obj\Debug\net5.0\Services.pdb
+D:\.net\primerParcialPeroConBDD\PrimerParcialPeroConBDD\Services\obj\Debug\net5.0\Services.genruntimeconfig.cache

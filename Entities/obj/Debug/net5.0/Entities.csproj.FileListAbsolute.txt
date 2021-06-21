@@ -1,0 +1,15 @@
+D:\.net\primerParcialPeroConBDD\PrimerParcialPeroConBDD\Entities\bin\Debug\net5.0\Entities.deps.json
+D:\.net\primerParcialPeroConBDD\PrimerParcialPeroConBDD\Entities\bin\Debug\net5.0\Entities.runtimeconfig.json
+D:\.net\primerParcialPeroConBDD\PrimerParcialPeroConBDD\Entities\bin\Debug\net5.0\Entities.runtimeconfig.dev.json
+D:\.net\primerParcialPeroConBDD\PrimerParcialPeroConBDD\Entities\bin\Debug\net5.0\Entities.dll
+D:\.net\primerParcialPeroConBDD\PrimerParcialPeroConBDD\Entities\bin\Debug\net5.0\ref\Entities.dll
+D:\.net\primerParcialPeroConBDD\PrimerParcialPeroConBDD\Entities\bin\Debug\net5.0\Entities.pdb
+D:\.net\primerParcialPeroConBDD\PrimerParcialPeroConBDD\Entities\obj\Debug\net5.0\Entities.csprojAssemblyReference.cache
+D:\.net\primerParcialPeroConBDD\PrimerParcialPeroConBDD\Entities\obj\Debug\net5.0\Entities.GeneratedMSBuildEditorConfig.editorconfig
+D:\.net\primerParcialPeroConBDD\PrimerParcialPeroConBDD\Entities\obj\Debug\net5.0\Entities.AssemblyInfoInputs.cache
+D:\.net\primerParcialPeroConBDD\PrimerParcialPeroConBDD\Entities\obj\Debug\net5.0\Entities.AssemblyInfo.cs
+D:\.net\primerParcialPeroConBDD\PrimerParcialPeroConBDD\Entities\obj\Debug\net5.0\Entities.csproj.CoreCompileInputs.cache
+D:\.net\primerParcialPeroConBDD\PrimerParcialPeroConBDD\Entities\obj\Debug\net5.0\Entities.dll
+D:\.net\primerParcialPeroConBDD\PrimerParcialPeroConBDD\Entities\obj\Debug\net5.0\ref\Entities.dll
+D:\.net\primerParcialPeroConBDD\PrimerParcialPeroConBDD\Entities\obj\Debug\net5.0\Entities.pdb
+D:\.net\primerParcialPeroConBDD\PrimerParcialPeroConBDD\Entities\obj\Debug\net5.0\Entities.genruntimeconfig.cache
