@@ -394,3 +394,11 @@ D:\.net\primerParcialPeroConBDD\PrimerParcialPeroConBDD\PrimerParcialPeroConBDD\
 D:\.net\primerParcialPeroConBDD\PrimerParcialPeroConBDD\PrimerParcialPeroConBDD\obj\Debug\net5.0\ref\PrimerParcialPeroConBDD.dll
 D:\.net\primerParcialPeroConBDD\PrimerParcialPeroConBDD\PrimerParcialPeroConBDD\obj\Debug\net5.0\PrimerParcialPeroConBDD.pdb
 D:\.net\primerParcialPeroConBDD\PrimerParcialPeroConBDD\PrimerParcialPeroConBDD\obj\Debug\net5.0\PrimerParcialPeroConBDD.genruntimeconfig.cache
+D:\.net\primerParcialPeroConBDD\PrimerParcialPeroConBDD\PrimerParcialPeroConBDD\obj\Debug\net5.0\Razor\Views\Cliente\Crear.cshtml.g.cs
+D:\.net\primerParcialPeroConBDD\PrimerParcialPeroConBDD\PrimerParcialPeroConBDD\obj\Debug\net5.0\Razor\Views\Presentacion\Bienvenido.cshtml.g.cs
+D:\.net\primerParcialPeroConBDD\PrimerParcialPeroConBDD\PrimerParcialPeroConBDD\bin\Debug\net5.0\Entities.dll
+D:\.net\primerParcialPeroConBDD\PrimerParcialPeroConBDD\PrimerParcialPeroConBDD\bin\Debug\net5.0\Services.dll
+D:\.net\primerParcialPeroConBDD\PrimerParcialPeroConBDD\PrimerParcialPeroConBDD\bin\Debug\net5.0\Entities.pdb
+D:\.net\primerParcialPeroConBDD\PrimerParcialPeroConBDD\PrimerParcialPeroConBDD\bin\Debug\net5.0\Services.pdb
+D:\.net\primerParcialPeroConBDD\PrimerParcialPeroConBDD\PrimerParcialPeroConBDD\obj\Debug\net5.0\Razor\Views\Cliente\Listar.cshtml.g.cs
+D:\.net\primerParcialPeroConBDD\PrimerParcialPeroConBDD\PrimerParcialPeroConBDD\obj\Debug\net5.0\Razor\Views\Cliente\Modificar.cshtml.g.cs

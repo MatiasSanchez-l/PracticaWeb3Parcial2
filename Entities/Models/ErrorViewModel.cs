@@ -1,6 +1,6 @@
 using System;
 
-namespace PrimerParcialPeroConBDD.Models
+namespace Entities.Models
 {
     public class ErrorViewModel
     {

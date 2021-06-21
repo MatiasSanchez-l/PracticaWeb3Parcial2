@@ -4,6 +4,10 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 VisualStudioVersion = 16.0.31129.286
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PrimerParcialPeroConBDD", "PrimerParcialPeroConBDD\PrimerParcialPeroConBDD.csproj", "{4F34C07D-8D3E-4A82-8580-BBD796F7971C}"
+	ProjectSection(ProjectDependencies) = postProject
+		{AC8D9F37-A94C-4E05-8A7C-F6C22D4FDEB1} = {AC8D9F37-A94C-4E05-8A7C-F6C22D4FDEB1}
+		{D15F91FB-70E6-4CFC-A8B2-F29D239D4473} = {D15F91FB-70E6-4CFC-A8B2-F29D239D4473}
+	EndProjectSection
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Entities", "Entities\Entities.csproj", "{AC8D9F37-A94C-4E05-8A7C-F6C22D4FDEB1}"
 EndProject

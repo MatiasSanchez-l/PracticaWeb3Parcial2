@@ -13,3 +13,6 @@ D:\.net\primerParcialPeroConBDD\PrimerParcialPeroConBDD\Services\obj\Debug\net5.
 D:\.net\primerParcialPeroConBDD\PrimerParcialPeroConBDD\Services\obj\Debug\net5.0\ref\Services.dll
 D:\.net\primerParcialPeroConBDD\PrimerParcialPeroConBDD\Services\obj\Debug\net5.0\Services.pdb
 D:\.net\primerParcialPeroConBDD\PrimerParcialPeroConBDD\Services\obj\Debug\net5.0\Services.genruntimeconfig.cache
+D:\.net\primerParcialPeroConBDD\PrimerParcialPeroConBDD\Services\bin\Debug\net5.0\Entities.dll
+D:\.net\primerParcialPeroConBDD\PrimerParcialPeroConBDD\Services\bin\Debug\net5.0\Entities.pdb
+D:\.net\primerParcialPeroConBDD\PrimerParcialPeroConBDD\Services\obj\Debug\net5.0\Services.csproj.CopyComplete

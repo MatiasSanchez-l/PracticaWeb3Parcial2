@@ -3,7 +3,7 @@ using System.Collections.Generic;
 
 #nullable disable
 
-namespace PrimerParcialPeroConBDD.Models
+namespace Entities.Models
 {
     public partial class Cliente
     {

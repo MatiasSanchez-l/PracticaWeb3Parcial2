@@ -4,7 +4,7 @@ using Microsoft.EntityFrameworkCore.Metadata;
 
 #nullable disable
 
-namespace PrimerParcialPeroConBDD.Models
+namespace Entities.Models
 {
     public partial class practicaPrimerParcialConBDDContext : DbContext
     {

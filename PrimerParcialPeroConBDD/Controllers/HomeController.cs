@@ -1,6 +1,6 @@
-﻿using Microsoft.AspNetCore.Mvc;
+﻿using Entities.Models;
+using Microsoft.AspNetCore.Mvc;
 using Microsoft.Extensions.Logging;
-using PrimerParcialPeroConBDD.Models;
 using System;
 using System.Collections.Generic;
 using System.Diagnostics;

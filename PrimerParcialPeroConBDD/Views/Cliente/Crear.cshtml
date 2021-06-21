@@ -1,0 +1,15 @@
+﻿@using Entities.Models
+@model Cliente
+@{
+    ViewData["Title"] = "Crear Cliente";
+}
+
+<h1>Creacion Cliente</h1>
+<form action="/Cliente/Crear" method="post" class="form-control">
+    <div class="form-group">
+        <label for="Nombre">Nombre</label>
+        <input type="text" class="form-control" asp-for="Nombre" id="Nombre" placeholder="Nombre">
+        <span asp-validation-for="Nombre" class="text-danger"></span>
+    </div>
+    <input type="submit" class="btn btn-warning" />
+</form>
