@@ -9,7 +9,8 @@ namespace Entities.Partials
 {
     class ClienteMetadata
     {
-        [Required]
+        [Required(ErrorMessage = "Se requiere completar este campo")]
+        [StringLength(50, ErrorMessage = "no puede superar los 50 caracteres.")]
         public string Nombre { get; set; }
     }
 }

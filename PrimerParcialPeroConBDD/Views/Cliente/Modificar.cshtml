@@ -1,10 +1,15 @@
 ﻿@model Entities.Models.Cliente
+
+@section Scripts {
+    @{await Html.RenderPartialAsync("_ValidationScriptsPartial"); }
+}
+
 @{
     ViewData["Title"] = "Modificar Cliente";
 }
 
 <h1>Modificar Cliente</h1>
-<form action="/Cliente/Modificar" method="post" class="form-control">
+<form action="/Cliente/Modificar" method="post">
     <div class="form-group">
         <input type="hidden" name="IdCliente" value="@Model.IdCliente" />
         <label for="Nombre">Nombre</label>

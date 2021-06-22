@@ -64,6 +64,8 @@ namespace Entities.Models
 
                 entity.Property(e => e.PrecioUnitario).HasColumnName("precio_unitario");
 
+                entity.Property(e => e.TotalVenta).HasColumnName("total_venta");
+
                 entity.HasOne(d => d.IdClienteNavigation)
                     .WithMany(p => p.Venta)
                     .HasForeignKey(d => d.IdCliente)

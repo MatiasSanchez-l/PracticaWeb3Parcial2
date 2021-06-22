@@ -11,6 +11,7 @@ namespace Entities.Models
         public int IdCliente { get; set; }
         public int CantidadVendida { get; set; }
         public int PrecioUnitario { get; set; }
+        public int? TotalVenta { get; set; }
 
         public virtual Cliente IdClienteNavigation { get; set; }
     }

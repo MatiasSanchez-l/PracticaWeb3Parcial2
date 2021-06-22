@@ -1,0 +1,36 @@
+﻿@model List<Entities.Models.Ventum>
+@{
+    ViewData["Title"] = "Lista ventas";
+}
+<h1>Listar Ventas</h1>
+@if (Model.Count == 0)
+{
+    <div>No hay prendas</div>
+}
+else
+{
+    <table class="table">
+        <thead>
+            <tr>
+                <th>Id Venta</th>
+                <th>Cliente</th>
+                <th>Cantidad</th>
+                <th>Precio Unitario</th>
+                <th>Total Venta</th>
+            </tr>
+        </thead>
+        <tbody>
+            @foreach (var venta in Model)
+            {
+            <tr>
+                <td><a>@venta.IdVenta</a></td>
+                <td>@venta.IdCliente</td>
+                <td><a>@venta.CantidadVendida</a></td>
+                <td>@venta.PrecioUnitario</td>
+                <td><a href="/cliente/modificar?idVenta=@venta.IdVenta">Modificar</a></td>
+            </tr>
+            }
+        </tbody>
+    </table>
+
+}

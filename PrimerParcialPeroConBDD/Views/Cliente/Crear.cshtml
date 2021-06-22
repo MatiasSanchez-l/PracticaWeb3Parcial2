@@ -1,11 +1,14 @@
 ﻿@using Entities.Models
 @model Cliente
+@section Scripts {
+    @{await Html.RenderPartialAsync("_ValidationScriptsPartial"); }
+}
 @{
     ViewData["Title"] = "Crear Cliente";
 }
 
 <h1>Creacion Cliente</h1>
-<form action="/Cliente/Crear" method="post" class="form-control">
+<form action="/Cliente/Crear" method="post">
     <div class="form-group">
         <label for="Nombre">Nombre</label>
         <input type="text" class="form-control" asp-for="Nombre" id="Nombre" placeholder="Nombre">
