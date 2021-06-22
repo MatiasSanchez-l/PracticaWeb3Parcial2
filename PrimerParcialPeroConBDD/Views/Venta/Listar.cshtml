@@ -1,14 +1,41 @@
 ﻿@model List<Entities.Models.Ventum>
 @{
     ViewData["Title"] = "Lista ventas";
+    List<Entities.Models.Cliente> TodosClientes = ViewBag.TodosClientes;
+    int? IdClienteSeleccionado = ViewBag.IdClienteSeleccionado;
 }
 <h1>Listar Ventas</h1>
+<div>
+    <form action="/Venta/listar" method="post">
+        <div class="form-group">
+            <label for="IdCliente">
+                Tipo prenda:
+            </label>
+            <select name="IdCliente" class="form-control">
+                <option value="">Elija Cliente</option>
+                @foreach (var cliente in TodosClientes)
+                {
+                    if (cliente.IdCliente == IdClienteSeleccionado && IdClienteSeleccionado.HasValue)
+                    {
+                        <option value="@cliente.IdCliente" selected>@cliente.Nombre</option>
+                    }
+                    else
+                    {
+                        <option value="@cliente.IdCliente">@cliente.Nombre</option>
+                    }
+                }
+            </select>
+            </divclass="form-group">
+            <input class="btn btn-secondary" type="submit" value="filtrar" />
+</form>
+</div>
 @if (Model.Count == 0)
 {
     <div>No hay prendas</div>
 }
 else
 {
+<div>
     <table class="table">
         <thead>
             <tr>
@@ -24,17 +51,17 @@ else
         <tbody>
             @foreach (var venta in Model)
             {
-            <tr>
-                <td><a>@venta.IdVenta</a></td>
-                <td>@venta.IdClienteNavigation.Nombre</td>
-                <td><a>@venta.CantidadVendida</a></td>
-                <td>@venta.PrecioUnitario</td>
-                <td>@venta.TotalVenta</td>
-                <td><a href="/venta/modificar?idVenta=@venta.IdVenta">Modificar</a></td>
-                <td><a href="/venta/eliminar?idVenta=@venta.IdVenta">Eliminar</a></td>
-            </tr>
+                <tr>
+                    <td><a>@venta.IdVenta</a></td>
+                    <td>@venta.IdClienteNavigation.Nombre</td>
+                    <td><a>@venta.CantidadVendida</a></td>
+                    <td>@venta.PrecioUnitario</td>
+                    <td>@venta.TotalVenta</td>
+                    <td><a href="/venta/modificar?idVenta=@venta.IdVenta">Modificar</a></td>
+                    <td><a href="/venta/eliminar?idVenta=@venta.IdVenta">Eliminar</a></td>
+                </tr>
             }
         </tbody>
     </table>
-
+</div>
 }

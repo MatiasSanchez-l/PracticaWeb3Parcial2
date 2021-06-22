@@ -85,5 +85,10 @@ namespace Services
             }
             return todasLasVentas;
         }
+
+        public List<Ventum> obtenerTodosPorIdCliente(int id)
+        {
+            return _dBContext.Venta.Where(o => o.IdCliente == id).ToList();
+        }
     }
 }

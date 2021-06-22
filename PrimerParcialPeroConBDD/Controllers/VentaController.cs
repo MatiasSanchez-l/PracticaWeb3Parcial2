@@ -43,6 +43,17 @@ namespace PrimerParcialPeroConBDD.Controllers
         public IActionResult Listar()
         {
             List<Ventum> ventas = _ventaServicio.obtenerTodos();
+            ViewBag.TodosClientes = _clienteServicio.obtenerTodos();
+            return View(ventas);
+        }
+
+        [HttpPost]
+        public IActionResult Listar(int IdCliente)
+        {
+            List<Ventum> ventas = _ventaServicio.obtenerTodosPorIdCliente(IdCliente);
+            ViewBag.TodosClientes = _clienteServicio.obtenerTodos();
+            ViewBag.IdClienteSeleccionado = IdCliente;
+
             return View(ventas);
         }
 

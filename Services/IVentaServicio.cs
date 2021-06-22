@@ -19,7 +19,7 @@ namespace Services
 
         List<Ventum> obtenerTodos();
 
-
+        List<Ventum> obtenerTodosPorIdCliente(int id);
         void Borrar(Ventum Venta);
     }
 }
