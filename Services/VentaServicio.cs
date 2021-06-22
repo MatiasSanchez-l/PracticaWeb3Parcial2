@@ -16,6 +16,12 @@ namespace Services
             _dBContext = dBContext;
         }
 
+        public void Borrar(Ventum Venta)
+        {
+            _dBContext.Venta.Remove(Venta);
+            _dBContext.SaveChanges();
+        }
+
         public void Crear(Ventum Venta)
         {
 

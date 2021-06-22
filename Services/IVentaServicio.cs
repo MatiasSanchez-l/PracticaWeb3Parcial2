@@ -18,5 +18,8 @@ namespace Services
         Ventum devolverVentaConTotal(Ventum Venta);
 
         List<Ventum> obtenerTodos();
+
+
+        void Borrar(Ventum Venta);
     }
 }

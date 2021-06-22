@@ -64,5 +64,13 @@ namespace PrimerParcialPeroConBDD.Controllers
             _ventaServicio.Modificar(_ventaServicio.devolverVentaConTotal(venta));
             return Redirect("/Venta/Listar");
         }
+
+        public IActionResult Eliminar(int idVenta)
+        {
+            Ventum ventaABorrar = _ventaServicio.obtenerPorId(idVenta);
+            _ventaServicio.Borrar(ventaABorrar);
+
+            return Redirect("/Venta/Listar");
+        }
     }
 }

@@ -14,5 +14,6 @@ namespace Services
         void Modificar(Cliente Cliente);
         Cliente obtenerPorId(int id);
         List<Cliente> obtenerTodos();
+
     }
 }
