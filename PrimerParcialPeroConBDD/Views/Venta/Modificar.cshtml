@@ -1,0 +1,43 @@
+﻿@model Entities.Models.Ventum
+@section Scripts {
+    @{await Html.RenderPartialAsync("_ValidationScriptsPartial"); }
+}
+@{
+    ViewData["Title"] = "Modificar Venta";
+    List<Entities.Models.Cliente> TodosClientes = ViewBag.TodosClientes;
+}
+
+<h1>Creacion Venta</h1>
+<form action="/Venta/Modificar" method="post">
+    <div class="form-group">
+        <input type="hidden" name="IdVenta" value="@Model.IdVenta" />
+        <label for="IdCliente">Cliente</label>
+        <select class="form-control" id="IdCliente" asp-for="IdCliente">
+            <option value="">Elija Cliente</option>
+            @foreach (var cliente in TodosClientes)
+            {
+                if (Model.IdCliente == cliente.IdCliente)
+                {
+                    <option value="@cliente.IdCliente" selected>@cliente.Nombre</option>
+                }
+                else
+                {
+                    <option value="@cliente.IdCliente">@cliente.Nombre</option>
+                }
+
+            }
+        </select>
+        <span asp-validation-for="IdCliente" class="text-danger"></span>
+    </div>
+    <div class="form-group">
+        <label for="CantidadVendida">Cantidad</label>
+        <input type="text" class="form-control" asp-for="CantidadVendida" id="CantidadVendida" value="@Model.CantidadVendida" placeholder="Nombre">
+        <span asp-validation-for="CantidadVendida" class="text-danger"></span>
+    </div>
+    <div class="form-group">
+        <label for="PrecioUnitario">Precio unitario</label>
+        <input type="text" class="form-control" asp-for="PrecioUnitario" value="@Model.PrecioUnitario" id="PrecioUnitario" placeholder="Nombre">
+        <span asp-validation-for="PrecioUnitario" class="text-danger"></span>
+    </div>
+    <input type="submit" class="btn btn-warning" />
+</form>

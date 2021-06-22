@@ -404,3 +404,4 @@ D:\.net\primerParcialPeroConBDD\PrimerParcialPeroConBDD\PrimerParcialPeroConBDD\
 D:\.net\primerParcialPeroConBDD\PrimerParcialPeroConBDD\PrimerParcialPeroConBDD\obj\Debug\net5.0\Razor\Views\Cliente\Modificar.cshtml.g.cs
 D:\.net\primerParcialPeroConBDD\PrimerParcialPeroConBDD\PrimerParcialPeroConBDD\obj\Debug\net5.0\Razor\Views\Venta\Crear.cshtml.g.cs
 D:\.net\primerParcialPeroConBDD\PrimerParcialPeroConBDD\PrimerParcialPeroConBDD\obj\Debug\net5.0\Razor\Views\Venta\Listar.cshtml.g.cs
+D:\.net\primerParcialPeroConBDD\PrimerParcialPeroConBDD\PrimerParcialPeroConBDD\obj\Debug\net5.0\Razor\Views\Venta\Modificar.cshtml.g.cs

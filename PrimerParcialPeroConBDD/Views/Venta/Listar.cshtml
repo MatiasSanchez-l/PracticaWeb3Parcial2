@@ -17,6 +17,8 @@ else
                 <th>Cantidad</th>
                 <th>Precio Unitario</th>
                 <th>Total Venta</th>
+                <th>-</th>
+                <th>-</th>
             </tr>
         </thead>
         <tbody>
@@ -24,10 +26,12 @@ else
             {
             <tr>
                 <td><a>@venta.IdVenta</a></td>
-                <td>@venta.IdCliente</td>
+                <td>@venta.IdClienteNavigation.Nombre</td>
                 <td><a>@venta.CantidadVendida</a></td>
                 <td>@venta.PrecioUnitario</td>
-                <td><a href="/cliente/modificar?idVenta=@venta.IdVenta">Modificar</a></td>
+                <td>@venta.TotalVenta</td>
+                <td><a href="/venta/modificar?idVenta=@venta.IdVenta">Modificar</a></td>
+                <td><a href="/venta/eliminar?idVenta=@venta.IdVenta">Eliminar</a></td>
             </tr>
             }
         </tbody>

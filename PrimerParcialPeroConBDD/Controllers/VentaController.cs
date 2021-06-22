@@ -45,5 +45,24 @@ namespace PrimerParcialPeroConBDD.Controllers
             List<Ventum> ventas = _ventaServicio.obtenerTodos();
             return View(ventas);
         }
+
+        [HttpGet]
+        public IActionResult Modificar(int idVenta)
+        {
+            Ventum venta = _ventaServicio.obtenerPorId(idVenta);
+            ViewBag.TodosClientes = _clienteServicio.obtenerTodos();
+            return View(venta);
+        }
+
+        [HttpPost]
+        public IActionResult Modificar(Ventum venta)
+        {
+            if (!ModelState.IsValid)
+            {
+                return View(venta);
+            }
+            _ventaServicio.Modificar(_ventaServicio.devolverVentaConTotal(venta));
+            return Redirect("/Venta/Listar");
+        }
     }
 }
